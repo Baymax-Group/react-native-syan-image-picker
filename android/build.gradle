@@ -19,7 +19,7 @@ android {
 }
 dependencies {
     compile 'com.facebook.react:react-native:+'
-    compile 'com.github.LuckSiege.PictureSelector:picture_library:v2.2.3'{
-        exclude module: 'ucrop'
+    compile (com.github.LuckSiege.PictureSelector:picture_library:v2.2.3){
+            exclude module: 'ucrop'
     }
 }
